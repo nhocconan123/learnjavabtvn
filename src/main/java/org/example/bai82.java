@@ -9,6 +9,7 @@ public class bai82 {
         int a=sc.nextInt();
         int b =sc.nextInt();
         int c=sc.nextInt();
+        sc.close();
         if(a>b&&a>c)
         {
             System.out.println("so lon nhat la"+a);
