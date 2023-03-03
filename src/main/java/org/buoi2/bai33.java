@@ -7,13 +7,14 @@ public class bai33 {
         Scanner sc=new Scanner(System.in);
         System.out.println("nhap vao n");
         double n= sc.nextDouble();
+        sc.close();
         double tong=0;
         double total=0;
         for (int i=1;i<=n;i++)
         {
-            tong=Math.pow((double) 2,(double) 1.0/(i+1));
-            total+=tong;
+            tong=Math.sqrt(tong+2);
+
         }
-        System.out.println(total);
+        System.out.println(tong);
     }
 }
