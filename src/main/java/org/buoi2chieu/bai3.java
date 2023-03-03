@@ -15,7 +15,7 @@ public class bai3 {
             System.out.println("Nhập vào số phần tử của mảng: ");
             n = sc.nextInt();
         } while (n < 0);
-        Random random= new Random(1);
+        Random random= new Random(10);
         //tao mang
         int[] arr= new int[n];
         for(int i=0;i<n;i++)
@@ -42,7 +42,7 @@ public class bai3 {
             }
         }
         //max
-        System.out.println("");
+        System.out.println();
         System.out.println("max"+arr[0]);
         System.out.println("min"+arr[n-1]);
 
