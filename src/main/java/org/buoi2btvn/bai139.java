@@ -9,21 +9,15 @@ public class bai139 {
             System.out.println("so"+arr[i]+"la so hoan thien");
         }
     }
-    public static boolean sohoanthien(int x)
+    public static boolean sohoanthien(int number)
     {
-        int tam=0;
-        for(int i=1;i<x;i++)
-        {
-            if(x%i==0)
-            {
-                tam=tam+i;
+        int sum = 0;
+        for (int i = 1; i < number; i++) {
+            if (number % i == 0) {
+                sum += i;
             }
         }
-        if(tam!=0 && tam==x)
-        {
-            return true;
-        }else
-            return false;
+        return sum == number;
     }
 }
 
